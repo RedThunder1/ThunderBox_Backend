@@ -8,7 +8,7 @@ const app = express();
 Connect()
 
 app.get("/api", (req, res) => {
-    res.json({ message: "Hello from the server!" });
+    res.json({ message: "Testing Server!" });
 });
 
 app.listen(PORT, () => {
