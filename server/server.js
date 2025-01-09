@@ -8,7 +8,7 @@ const PORT = 8000;
 const app = express();
 app.use(cors());
 
-//Connect()
+Connect()
 
 //sends Songs
 let song_data = loadSongs();

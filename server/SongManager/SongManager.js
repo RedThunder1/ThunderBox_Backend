@@ -1,4 +1,4 @@
-import data from './songs.json' assert {type: 'json'};
+import data from './songs.json' with {type: 'json'};
 
 export function loadSongs() {
     let songs = [];

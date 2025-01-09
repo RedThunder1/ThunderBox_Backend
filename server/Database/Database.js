@@ -10,7 +10,9 @@ const con = mysql.createConnection({
 export function Connect() {
     console.log('Connecting');
     con.connect(function(err) {
-        if (err) throw err;
+        if (err) {
+            console.log('Could not connect to Server!\n', err);
+        }
         console.log("Connected!");
     });
 
